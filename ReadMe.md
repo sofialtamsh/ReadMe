@@ -1,12 +1,28 @@
 ### 👋 Hi there! I'm Sofi Altamsh 🤖
+# <span id="name"></span>
+<script>
+  const name = "👋 Hi there! I'm Sofi Altamsh 🤖";
+  const nameSpan = document.getElementById("name");
+  let i = 0;
+
+  function typeName() {
+    if (i < name.length) {
+      nameSpan.textContent += name[i];
+      i++;
+      setTimeout(typeName, 50); // adjust the speed here
+    }
+  }
+
+  typeName();
+</script>
 
 A Profession Enthusiast with a passion for 🔥 building innovative projects and 🤝 collaborating with others. I'm always on the lookout for new technologies to learn and 🚀 launch into the stratosphere!
 
 **About Me:**
 
 * 📍 Currently trainee at Masai School 🏢
-* 💻 Experienced in  💻
-* 🎯 Strong background in [Relevant Skills] 🎯
+* 💻 Experienced in SQL, Python, Powerbi, MongoDB, NLP 💻
+* 🎯 Strong Background [Computer Science B.Tech from Government College of Engineering Aurangabad] 🎯
 * 🤝 Always eager to learn and collaborate with others 👫
 
 **My Projects:**
