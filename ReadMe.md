@@ -1,4 +1,5 @@
 ### 👋 Hi there! I'm Sofi Altamsh 🤖
+**stats**
 # <span id="name"></span>
 <script>
   const name = "👋 Hi there! I'm Sofi Altamsh 🤖";
