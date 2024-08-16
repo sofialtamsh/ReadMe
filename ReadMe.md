@@ -2,7 +2,7 @@
 **stats**
 # <span id="name"></span>
 <script>
-  const name = "👋 Hi there! I'm Sofi Altamsh 🤖";
+  const name = "👋 Aspiring Data Analyst or AI/NLP Developer 🤖";
   const nameSpan = document.getElementById("name");
   let i = 0;
 
@@ -10,7 +10,7 @@
     if (i < name.length) {
       nameSpan.textContent += name[i];
       i++;
-      setTimeout(typeName, 50); // adjust the speed here
+      setTimeout(typeName, 3000); // adjust the speed here
     }
   }
 
